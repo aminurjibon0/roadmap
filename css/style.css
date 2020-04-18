@@ -1,0 +1,47 @@
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+* {
+font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+#accordion h5 {
+    cursor: pointer;
+}
+#accordion .row {
+    height: 100%;
+}
+.toggle-arrow {
+    transform: rotate(90deg);
+    transition: .3s;
+    float: right;
+}
+.collapsed > .toggle-arrow {
+    transform: rotate(0deg);
+    transition: .3s;
+}
+#roadmap .single-img {
+    border-left: 1px solid #d5d5d5;
+}
+
+/*card start*/
+.card-single {
+    overflow: hidden;
+}
+.card-single .card-body {
+    padding: 0 !important;;
+}
+/*card end*/
+.cell {
+    border-left: 1px solid #d5d5d5;
+    align-self: center;
+    height: 100%;
+}
+.cell img {
+    max-width: 20px;
+}
